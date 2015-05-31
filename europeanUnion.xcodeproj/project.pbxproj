@@ -13,6 +13,7 @@
 		CF8496501B1B5A0300139B2E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF84964F1B1B5A0300139B2E /* Images.xcassets */; };
 		CF8496531B1B5A0300139B2E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF8496511B1B5A0300139B2E /* LaunchScreen.xib */; };
 		CF84965F1B1B5A0300139B2E /* europeanUnionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF84965E1B1B5A0300139B2E /* europeanUnionTests.swift */; };
+		CF8496691B1B5BC800139B2E /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8496681B1B5BC800139B2E /* Country.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		CF8496581B1B5A0300139B2E /* europeanUnionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = europeanUnionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF84965D1B1B5A0300139B2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF84965E1B1B5A0300139B2E /* europeanUnionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = europeanUnionTests.swift; sourceTree = "<group>"; };
+		CF8496681B1B5BC800139B2E /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				CF8496481B1B5A0300139B2E /* AppDelegate.swift */,
 				CF84964A1B1B5A0300139B2E /* ViewController.swift */,
 				CF84964C1B1B5A0300139B2E /* Main.storyboard */,
+				CF8496681B1B5BC800139B2E /* Country.swift */,
 				CF84964F1B1B5A0300139B2E /* Images.xcassets */,
 				CF8496511B1B5A0300139B2E /* LaunchScreen.xib */,
 				CF8496461B1B5A0300139B2E /* Supporting Files */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF84964B1B1B5A0300139B2E /* ViewController.swift in Sources */,
+				CF8496691B1B5BC800139B2E /* Country.swift in Sources */,
 				CF8496491B1B5A0300139B2E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
